@@ -1,5 +1,4 @@
 # aubo-i5 工作空间
-    设计moveit控制
 ##  aubo-i5 ubuntu18.04安装配置 
 
 **1.安装依赖包**
