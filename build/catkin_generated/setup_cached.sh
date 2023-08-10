@@ -8,7 +8,7 @@
 
 # modified environment variables
 export CMAKE_PREFIX_PATH="/home/gjw/catkin_ws/devel:$CMAKE_PREFIX_PATH"
-export LD_LIBRARY_PATH='/opt/ros/melodic/lib:/usr/local/cuda-10.2/lib64'
+export LD_LIBRARY_PATH='/home/gjw/catkin_ws/devel/lib:/opt/ros/melodic/lib:/usr/local/cuda-10.2/lib64'
 export PATH='/opt/ros/melodic/bin:/home/gjw/anaconda3/condabin:/usr/local/cuda-10.2/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'
 export PWD='/home/gjw/catkin_ws/build'
 export ROSLISP_PACKAGE_DIRECTORIES='/home/gjw/catkin_ws/devel/share/common-lisp'

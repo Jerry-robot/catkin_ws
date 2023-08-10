@@ -834,11 +834,11 @@ clean: aubo_robot_melodic/aubo_msgs/CMakeFiles/std_msgs_generate_messages_eus.di
 # Target rules for target aubo_robot_melodic/aubo_msgs/CMakeFiles/aubo_msgs_generate_messages.dir
 
 # All Build rule for target.
+aubo_robot_melodic/aubo_msgs/CMakeFiles/aubo_msgs_generate_messages.dir/all: aubo_robot_melodic/aubo_msgs/CMakeFiles/aubo_msgs_generate_messages_cpp.dir/all
+aubo_robot_melodic/aubo_msgs/CMakeFiles/aubo_msgs_generate_messages.dir/all: aubo_robot_melodic/aubo_msgs/CMakeFiles/aubo_msgs_generate_messages_nodejs.dir/all
 aubo_robot_melodic/aubo_msgs/CMakeFiles/aubo_msgs_generate_messages.dir/all: aubo_robot_melodic/aubo_msgs/CMakeFiles/aubo_msgs_generate_messages_eus.dir/all
 aubo_robot_melodic/aubo_msgs/CMakeFiles/aubo_msgs_generate_messages.dir/all: aubo_robot_melodic/aubo_msgs/CMakeFiles/aubo_msgs_generate_messages_lisp.dir/all
 aubo_robot_melodic/aubo_msgs/CMakeFiles/aubo_msgs_generate_messages.dir/all: aubo_robot_melodic/aubo_msgs/CMakeFiles/aubo_msgs_generate_messages_py.dir/all
-aubo_robot_melodic/aubo_msgs/CMakeFiles/aubo_msgs_generate_messages.dir/all: aubo_robot_melodic/aubo_msgs/CMakeFiles/aubo_msgs_generate_messages_cpp.dir/all
-aubo_robot_melodic/aubo_msgs/CMakeFiles/aubo_msgs_generate_messages.dir/all: aubo_robot_melodic/aubo_msgs/CMakeFiles/aubo_msgs_generate_messages_nodejs.dir/all
 	$(MAKE) -f aubo_robot_melodic/aubo_msgs/CMakeFiles/aubo_msgs_generate_messages.dir/build.make aubo_robot_melodic/aubo_msgs/CMakeFiles/aubo_msgs_generate_messages.dir/depend
 	$(MAKE) -f aubo_robot_melodic/aubo_msgs/CMakeFiles/aubo_msgs_generate_messages.dir/build.make aubo_robot_melodic/aubo_msgs/CMakeFiles/aubo_msgs_generate_messages.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/gjw/catkin_ws/build/CMakeFiles --progress-num= "Built target aubo_msgs_generate_messages"
@@ -875,6 +875,8 @@ clean: aubo_robot_melodic/aubo_msgs/CMakeFiles/aubo_msgs_generate_messages.dir/c
 # Target rules for target aubo_robot_melodic/aubo_msgs/CMakeFiles/aubo_msgs_generate_messages_eus.dir
 
 # All Build rule for target.
+aubo_robot_melodic/aubo_msgs/CMakeFiles/aubo_msgs_generate_messages_eus.dir/all: aubo_robot_melodic/aubo_msgs/CMakeFiles/_aubo_msgs_generate_messages_check_deps_GetFK.dir/all
+aubo_robot_melodic/aubo_msgs/CMakeFiles/aubo_msgs_generate_messages_eus.dir/all: aubo_robot_melodic/aubo_msgs/CMakeFiles/_aubo_msgs_generate_messages_check_deps_SetPayload.dir/all
 aubo_robot_melodic/aubo_msgs/CMakeFiles/aubo_msgs_generate_messages_eus.dir/all: aubo_robot_melodic/aubo_msgs/CMakeFiles/_aubo_msgs_generate_messages_check_deps_Analog.dir/all
 aubo_robot_melodic/aubo_msgs/CMakeFiles/aubo_msgs_generate_messages_eus.dir/all: aubo_robot_melodic/aubo_msgs/CMakeFiles/_aubo_msgs_generate_messages_check_deps_Digital.dir/all
 aubo_robot_melodic/aubo_msgs/CMakeFiles/aubo_msgs_generate_messages_eus.dir/all: aubo_robot_melodic/aubo_msgs/CMakeFiles/_aubo_msgs_generate_messages_check_deps_SetIO.dir/all
@@ -885,8 +887,6 @@ aubo_robot_melodic/aubo_msgs/CMakeFiles/aubo_msgs_generate_messages_eus.dir/all:
 aubo_robot_melodic/aubo_msgs/CMakeFiles/aubo_msgs_generate_messages_eus.dir/all: aubo_robot_melodic/aubo_msgs/CMakeFiles/_aubo_msgs_generate_messages_check_deps_JointPos.dir/all
 aubo_robot_melodic/aubo_msgs/CMakeFiles/aubo_msgs_generate_messages_eus.dir/all: aubo_robot_melodic/aubo_msgs/CMakeFiles/_aubo_msgs_generate_messages_check_deps_TraPoint.dir/all
 aubo_robot_melodic/aubo_msgs/CMakeFiles/aubo_msgs_generate_messages_eus.dir/all: aubo_robot_melodic/aubo_msgs/CMakeFiles/geometry_msgs_generate_messages_eus.dir/all
-aubo_robot_melodic/aubo_msgs/CMakeFiles/aubo_msgs_generate_messages_eus.dir/all: aubo_robot_melodic/aubo_msgs/CMakeFiles/_aubo_msgs_generate_messages_check_deps_GetFK.dir/all
-aubo_robot_melodic/aubo_msgs/CMakeFiles/aubo_msgs_generate_messages_eus.dir/all: aubo_robot_melodic/aubo_msgs/CMakeFiles/_aubo_msgs_generate_messages_check_deps_SetPayload.dir/all
 	$(MAKE) -f aubo_robot_melodic/aubo_msgs/CMakeFiles/aubo_msgs_generate_messages_eus.dir/build.make aubo_robot_melodic/aubo_msgs/CMakeFiles/aubo_msgs_generate_messages_eus.dir/depend
 	$(MAKE) -f aubo_robot_melodic/aubo_msgs/CMakeFiles/aubo_msgs_generate_messages_eus.dir/build.make aubo_robot_melodic/aubo_msgs/CMakeFiles/aubo_msgs_generate_messages_eus.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/gjw/catkin_ws/build/CMakeFiles --progress-num=29,30,31,32,33,34,35,36,37,38,39 "Built target aubo_msgs_generate_messages_eus"
@@ -1206,6 +1206,8 @@ clean: aubo_robot_melodic/aubo_msgs/CMakeFiles/_aubo_msgs_generate_messages_chec
 # Target rules for target aubo_robot_melodic/aubo_msgs/CMakeFiles/aubo_msgs_generate_messages_lisp.dir
 
 # All Build rule for target.
+aubo_robot_melodic/aubo_msgs/CMakeFiles/aubo_msgs_generate_messages_lisp.dir/all: aubo_robot_melodic/aubo_msgs/CMakeFiles/_aubo_msgs_generate_messages_check_deps_GetFK.dir/all
+aubo_robot_melodic/aubo_msgs/CMakeFiles/aubo_msgs_generate_messages_lisp.dir/all: aubo_robot_melodic/aubo_msgs/CMakeFiles/_aubo_msgs_generate_messages_check_deps_SetPayload.dir/all
 aubo_robot_melodic/aubo_msgs/CMakeFiles/aubo_msgs_generate_messages_lisp.dir/all: aubo_robot_melodic/aubo_msgs/CMakeFiles/_aubo_msgs_generate_messages_check_deps_Analog.dir/all
 aubo_robot_melodic/aubo_msgs/CMakeFiles/aubo_msgs_generate_messages_lisp.dir/all: aubo_robot_melodic/aubo_msgs/CMakeFiles/_aubo_msgs_generate_messages_check_deps_Digital.dir/all
 aubo_robot_melodic/aubo_msgs/CMakeFiles/aubo_msgs_generate_messages_lisp.dir/all: aubo_robot_melodic/aubo_msgs/CMakeFiles/_aubo_msgs_generate_messages_check_deps_SetIO.dir/all
@@ -1216,8 +1218,6 @@ aubo_robot_melodic/aubo_msgs/CMakeFiles/aubo_msgs_generate_messages_lisp.dir/all
 aubo_robot_melodic/aubo_msgs/CMakeFiles/aubo_msgs_generate_messages_lisp.dir/all: aubo_robot_melodic/aubo_msgs/CMakeFiles/_aubo_msgs_generate_messages_check_deps_GetIK.dir/all
 aubo_robot_melodic/aubo_msgs/CMakeFiles/aubo_msgs_generate_messages_lisp.dir/all: aubo_robot_melodic/aubo_msgs/CMakeFiles/_aubo_msgs_generate_messages_check_deps_JointPos.dir/all
 aubo_robot_melodic/aubo_msgs/CMakeFiles/aubo_msgs_generate_messages_lisp.dir/all: aubo_robot_melodic/aubo_msgs/CMakeFiles/_aubo_msgs_generate_messages_check_deps_TraPoint.dir/all
-aubo_robot_melodic/aubo_msgs/CMakeFiles/aubo_msgs_generate_messages_lisp.dir/all: aubo_robot_melodic/aubo_msgs/CMakeFiles/_aubo_msgs_generate_messages_check_deps_GetFK.dir/all
-aubo_robot_melodic/aubo_msgs/CMakeFiles/aubo_msgs_generate_messages_lisp.dir/all: aubo_robot_melodic/aubo_msgs/CMakeFiles/_aubo_msgs_generate_messages_check_deps_SetPayload.dir/all
 	$(MAKE) -f aubo_robot_melodic/aubo_msgs/CMakeFiles/aubo_msgs_generate_messages_lisp.dir/build.make aubo_robot_melodic/aubo_msgs/CMakeFiles/aubo_msgs_generate_messages_lisp.dir/depend
 	$(MAKE) -f aubo_robot_melodic/aubo_msgs/CMakeFiles/aubo_msgs_generate_messages_lisp.dir/build.make aubo_robot_melodic/aubo_msgs/CMakeFiles/aubo_msgs_generate_messages_lisp.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/gjw/catkin_ws/build/CMakeFiles --progress-num=40,41,42,43,44,45,46,47,48,49 "Built target aubo_msgs_generate_messages_lisp"
@@ -1249,6 +1249,8 @@ clean: aubo_robot_melodic/aubo_msgs/CMakeFiles/aubo_msgs_generate_messages_lisp.
 # Target rules for target aubo_robot_melodic/aubo_msgs/CMakeFiles/aubo_msgs_generate_messages_py.dir
 
 # All Build rule for target.
+aubo_robot_melodic/aubo_msgs/CMakeFiles/aubo_msgs_generate_messages_py.dir/all: aubo_robot_melodic/aubo_msgs/CMakeFiles/_aubo_msgs_generate_messages_check_deps_GetFK.dir/all
+aubo_robot_melodic/aubo_msgs/CMakeFiles/aubo_msgs_generate_messages_py.dir/all: aubo_robot_melodic/aubo_msgs/CMakeFiles/_aubo_msgs_generate_messages_check_deps_SetPayload.dir/all
 aubo_robot_melodic/aubo_msgs/CMakeFiles/aubo_msgs_generate_messages_py.dir/all: aubo_robot_melodic/aubo_msgs/CMakeFiles/_aubo_msgs_generate_messages_check_deps_Analog.dir/all
 aubo_robot_melodic/aubo_msgs/CMakeFiles/aubo_msgs_generate_messages_py.dir/all: aubo_robot_melodic/aubo_msgs/CMakeFiles/_aubo_msgs_generate_messages_check_deps_Digital.dir/all
 aubo_robot_melodic/aubo_msgs/CMakeFiles/aubo_msgs_generate_messages_py.dir/all: aubo_robot_melodic/aubo_msgs/CMakeFiles/_aubo_msgs_generate_messages_check_deps_SetIO.dir/all
@@ -1259,8 +1261,6 @@ aubo_robot_melodic/aubo_msgs/CMakeFiles/aubo_msgs_generate_messages_py.dir/all: 
 aubo_robot_melodic/aubo_msgs/CMakeFiles/aubo_msgs_generate_messages_py.dir/all: aubo_robot_melodic/aubo_msgs/CMakeFiles/_aubo_msgs_generate_messages_check_deps_GetIK.dir/all
 aubo_robot_melodic/aubo_msgs/CMakeFiles/aubo_msgs_generate_messages_py.dir/all: aubo_robot_melodic/aubo_msgs/CMakeFiles/_aubo_msgs_generate_messages_check_deps_JointPos.dir/all
 aubo_robot_melodic/aubo_msgs/CMakeFiles/aubo_msgs_generate_messages_py.dir/all: aubo_robot_melodic/aubo_msgs/CMakeFiles/_aubo_msgs_generate_messages_check_deps_TraPoint.dir/all
-aubo_robot_melodic/aubo_msgs/CMakeFiles/aubo_msgs_generate_messages_py.dir/all: aubo_robot_melodic/aubo_msgs/CMakeFiles/_aubo_msgs_generate_messages_check_deps_GetFK.dir/all
-aubo_robot_melodic/aubo_msgs/CMakeFiles/aubo_msgs_generate_messages_py.dir/all: aubo_robot_melodic/aubo_msgs/CMakeFiles/_aubo_msgs_generate_messages_check_deps_SetPayload.dir/all
 	$(MAKE) -f aubo_robot_melodic/aubo_msgs/CMakeFiles/aubo_msgs_generate_messages_py.dir/build.make aubo_robot_melodic/aubo_msgs/CMakeFiles/aubo_msgs_generate_messages_py.dir/depend
 	$(MAKE) -f aubo_robot_melodic/aubo_msgs/CMakeFiles/aubo_msgs_generate_messages_py.dir/build.make aubo_robot_melodic/aubo_msgs/CMakeFiles/aubo_msgs_generate_messages_py.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/gjw/catkin_ws/build/CMakeFiles --progress-num=60,61,62,63,64,65,66,67,68,69,70,71 "Built target aubo_msgs_generate_messages_py"
@@ -1388,6 +1388,8 @@ clean: aubo_robot_melodic/aubo_msgs/CMakeFiles/_aubo_msgs_generate_messages_chec
 # Target rules for target aubo_robot_melodic/aubo_msgs/CMakeFiles/aubo_msgs_generate_messages_cpp.dir
 
 # All Build rule for target.
+aubo_robot_melodic/aubo_msgs/CMakeFiles/aubo_msgs_generate_messages_cpp.dir/all: aubo_robot_melodic/aubo_msgs/CMakeFiles/_aubo_msgs_generate_messages_check_deps_GetFK.dir/all
+aubo_robot_melodic/aubo_msgs/CMakeFiles/aubo_msgs_generate_messages_cpp.dir/all: aubo_robot_melodic/aubo_msgs/CMakeFiles/_aubo_msgs_generate_messages_check_deps_SetPayload.dir/all
 aubo_robot_melodic/aubo_msgs/CMakeFiles/aubo_msgs_generate_messages_cpp.dir/all: aubo_robot_melodic/aubo_msgs/CMakeFiles/_aubo_msgs_generate_messages_check_deps_Analog.dir/all
 aubo_robot_melodic/aubo_msgs/CMakeFiles/aubo_msgs_generate_messages_cpp.dir/all: aubo_robot_melodic/aubo_msgs/CMakeFiles/_aubo_msgs_generate_messages_check_deps_Digital.dir/all
 aubo_robot_melodic/aubo_msgs/CMakeFiles/aubo_msgs_generate_messages_cpp.dir/all: aubo_robot_melodic/aubo_msgs/CMakeFiles/_aubo_msgs_generate_messages_check_deps_SetIO.dir/all
@@ -1398,8 +1400,6 @@ aubo_robot_melodic/aubo_msgs/CMakeFiles/aubo_msgs_generate_messages_cpp.dir/all:
 aubo_robot_melodic/aubo_msgs/CMakeFiles/aubo_msgs_generate_messages_cpp.dir/all: aubo_robot_melodic/aubo_msgs/CMakeFiles/_aubo_msgs_generate_messages_check_deps_GetIK.dir/all
 aubo_robot_melodic/aubo_msgs/CMakeFiles/aubo_msgs_generate_messages_cpp.dir/all: aubo_robot_melodic/aubo_msgs/CMakeFiles/_aubo_msgs_generate_messages_check_deps_JointPos.dir/all
 aubo_robot_melodic/aubo_msgs/CMakeFiles/aubo_msgs_generate_messages_cpp.dir/all: aubo_robot_melodic/aubo_msgs/CMakeFiles/_aubo_msgs_generate_messages_check_deps_TraPoint.dir/all
-aubo_robot_melodic/aubo_msgs/CMakeFiles/aubo_msgs_generate_messages_cpp.dir/all: aubo_robot_melodic/aubo_msgs/CMakeFiles/_aubo_msgs_generate_messages_check_deps_GetFK.dir/all
-aubo_robot_melodic/aubo_msgs/CMakeFiles/aubo_msgs_generate_messages_cpp.dir/all: aubo_robot_melodic/aubo_msgs/CMakeFiles/_aubo_msgs_generate_messages_check_deps_SetPayload.dir/all
 	$(MAKE) -f aubo_robot_melodic/aubo_msgs/CMakeFiles/aubo_msgs_generate_messages_cpp.dir/build.make aubo_robot_melodic/aubo_msgs/CMakeFiles/aubo_msgs_generate_messages_cpp.dir/depend
 	$(MAKE) -f aubo_robot_melodic/aubo_msgs/CMakeFiles/aubo_msgs_generate_messages_cpp.dir/build.make aubo_robot_melodic/aubo_msgs/CMakeFiles/aubo_msgs_generate_messages_cpp.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/gjw/catkin_ws/build/CMakeFiles --progress-num=19,20,21,22,23,24,25,26,27,28 "Built target aubo_msgs_generate_messages_cpp"
@@ -1463,6 +1463,8 @@ clean: aubo_robot_melodic/aubo_msgs/CMakeFiles/aubo_msgs_gencpp.dir/clean
 # Target rules for target aubo_robot_melodic/aubo_msgs/CMakeFiles/aubo_msgs_generate_messages_nodejs.dir
 
 # All Build rule for target.
+aubo_robot_melodic/aubo_msgs/CMakeFiles/aubo_msgs_generate_messages_nodejs.dir/all: aubo_robot_melodic/aubo_msgs/CMakeFiles/_aubo_msgs_generate_messages_check_deps_GetFK.dir/all
+aubo_robot_melodic/aubo_msgs/CMakeFiles/aubo_msgs_generate_messages_nodejs.dir/all: aubo_robot_melodic/aubo_msgs/CMakeFiles/_aubo_msgs_generate_messages_check_deps_SetPayload.dir/all
 aubo_robot_melodic/aubo_msgs/CMakeFiles/aubo_msgs_generate_messages_nodejs.dir/all: aubo_robot_melodic/aubo_msgs/CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
 aubo_robot_melodic/aubo_msgs/CMakeFiles/aubo_msgs_generate_messages_nodejs.dir/all: aubo_robot_melodic/aubo_msgs/CMakeFiles/_aubo_msgs_generate_messages_check_deps_Analog.dir/all
 aubo_robot_melodic/aubo_msgs/CMakeFiles/aubo_msgs_generate_messages_nodejs.dir/all: aubo_robot_melodic/aubo_msgs/CMakeFiles/_aubo_msgs_generate_messages_check_deps_Digital.dir/all
@@ -1473,8 +1475,6 @@ aubo_robot_melodic/aubo_msgs/CMakeFiles/aubo_msgs_generate_messages_nodejs.dir/a
 aubo_robot_melodic/aubo_msgs/CMakeFiles/aubo_msgs_generate_messages_nodejs.dir/all: aubo_robot_melodic/aubo_msgs/CMakeFiles/_aubo_msgs_generate_messages_check_deps_GetIK.dir/all
 aubo_robot_melodic/aubo_msgs/CMakeFiles/aubo_msgs_generate_messages_nodejs.dir/all: aubo_robot_melodic/aubo_msgs/CMakeFiles/_aubo_msgs_generate_messages_check_deps_JointPos.dir/all
 aubo_robot_melodic/aubo_msgs/CMakeFiles/aubo_msgs_generate_messages_nodejs.dir/all: aubo_robot_melodic/aubo_msgs/CMakeFiles/_aubo_msgs_generate_messages_check_deps_TraPoint.dir/all
-aubo_robot_melodic/aubo_msgs/CMakeFiles/aubo_msgs_generate_messages_nodejs.dir/all: aubo_robot_melodic/aubo_msgs/CMakeFiles/_aubo_msgs_generate_messages_check_deps_GetFK.dir/all
-aubo_robot_melodic/aubo_msgs/CMakeFiles/aubo_msgs_generate_messages_nodejs.dir/all: aubo_robot_melodic/aubo_msgs/CMakeFiles/_aubo_msgs_generate_messages_check_deps_SetPayload.dir/all
 	$(MAKE) -f aubo_robot_melodic/aubo_msgs/CMakeFiles/aubo_msgs_generate_messages_nodejs.dir/build.make aubo_robot_melodic/aubo_msgs/CMakeFiles/aubo_msgs_generate_messages_nodejs.dir/depend
 	$(MAKE) -f aubo_robot_melodic/aubo_msgs/CMakeFiles/aubo_msgs_generate_messages_nodejs.dir/build.make aubo_robot_melodic/aubo_msgs/CMakeFiles/aubo_msgs_generate_messages_nodejs.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/gjw/catkin_ws/build/CMakeFiles --progress-num=50,51,52,53,54,55,56,57,58,59 "Built target aubo_msgs_generate_messages_nodejs"
@@ -5577,8 +5577,8 @@ clean: aubo_robot_melodic/aubo_planning/CMakeFiles/diagnostic_msgs_generate_mess
 # Target rules for target aubo_robot_melodic/aubo_planning/CMakeFiles/aubo_planning_generate_messages_py.dir
 
 # All Build rule for target.
-aubo_robot_melodic/aubo_planning/CMakeFiles/aubo_planning_generate_messages_py.dir/all: aubo_robot_melodic/aubo_planning/CMakeFiles/_aubo_planning_generate_messages_check_deps_grasp_pose.dir/all
 aubo_robot_melodic/aubo_planning/CMakeFiles/aubo_planning_generate_messages_py.dir/all: aubo_robot_melodic/aubo_msgs/CMakeFiles/std_msgs_generate_messages_py.dir/all
+aubo_robot_melodic/aubo_planning/CMakeFiles/aubo_planning_generate_messages_py.dir/all: aubo_robot_melodic/aubo_planning/CMakeFiles/_aubo_planning_generate_messages_check_deps_grasp_pose.dir/all
 	$(MAKE) -f aubo_robot_melodic/aubo_planning/CMakeFiles/aubo_planning_generate_messages_py.dir/build.make aubo_robot_melodic/aubo_planning/CMakeFiles/aubo_planning_generate_messages_py.dir/depend
 	$(MAKE) -f aubo_robot_melodic/aubo_planning/CMakeFiles/aubo_planning_generate_messages_py.dir/build.make aubo_robot_melodic/aubo_planning/CMakeFiles/aubo_planning_generate_messages_py.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/gjw/catkin_ws/build/CMakeFiles --progress-num=79,80 "Built target aubo_planning_generate_messages_py"
