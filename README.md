@@ -3,6 +3,8 @@
 ##  aubo-i5 ubuntu18.04安装配置 
 
 **1.安装依赖包**
+
+`
 sudo apt install build-essential cmake pkg-config unzip yasm git checkinstall curl wget exfat-utils gparted 
 sudo apt install libvtk6-jni libvtk6-java libvtk6-dev libvtk6-qt-dev libpcl-dev 
 sudo apt install ros-melodic-pcl-conversions ros-melodic-pcl-ros ros-melodic-perception-pcl ros-melodic-perception ros-melodic-rqt
@@ -19,12 +21,18 @@ sudo apt install ros-melodic-industrial-*
 sudo apt-get install ros-melodic-moveit-planners-ompl
 sudo apt-get install ros-melodic-moveit-*
 sudo apt-get install ros-melodic-industrial-*
+`
+
+
 **2.初始化工作空间**
+`
 mkdir -p ~/catkin_ws/src
 复制aubo功能包
 cd catkin_ws/ 
 rosdep install -y --from-paths . --ignore-src --rosdistro melodic -r
 catkin_make
+`
 
 **3.运行真实机械臂**
-roslaunch aubo_i5_moveit_config moveit_planning_execution.launch robot_ip:=192.168.31.84
+
+`roslaunch aubo_i5_moveit_config moveit_planning_execution.launch robot_ip:=192.168.31.84`
